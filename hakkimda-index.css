@@ -1,0 +1,152 @@
+/* body and html */
+
+html, body {
+    font-family: Tahoma;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+}
+
+/* header properties */
+
+.header {
+    overflow: hidden;
+    background-color: #AC0000;
+    padding: 12px 6px;
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 0px 0px 12px 12px;
+}
+
+.header-right {
+    float: right;
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    padding: 12px;
+    font-size: 24px;
+    line-height: 25px;
+    border-radius: 16px;
+    transition: all 0.5s 0s ease-in-out;
+}
+
+.header .titletext {
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: white;
+    color: #AC0000;
+}
+
+.header a:active {
+    background-color: white;
+    color: #AC0000;
+}
+
+/* image properties */
+
+.webdevimg {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 140px;
+    left: 175px;
+    transition: transform .2s;
+}
+
+.webdevimg:hover {
+    transform: scale(1.2);
+}
+
+.webdevsect {
+    text-align: center;
+    float: left;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 135px;
+    left: 555px;
+    background-color: #AC0000;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    padding: 6px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.65);
+}
+
+.webdevimg1 {
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    top: 555px;
+    left: 175px;
+    transition: transform .2s;
+}
+
+.webdevimg1:hover {
+    transform: scale(1.2);
+}
+
+.webdevsect1 {
+    text-align: center;
+    float: left;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 535px;
+    left: 555px;
+    background-color: #AC0000;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    padding: 6px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.65);
+}
+
+.webdevtext {
+    font-size: 18px;
+    line-height: 25%;
+}
+
+.webdevtext1 {
+    font-size: 18px;
+    line-height: 25%;
+}
+
+/* footer properties */
+
+.footer {
+    overflow: hidden;
+    position: absolute;
+    bottom: -352px;
+    margin: 0;
+    background-color: #AC0000;
+    border-radius: 12px 12px 0px 0px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.75);
+}
+
+.linkprev {
+    text-decoration: none;
+    color: white;
+}
+
+.linkprev:hover {
+    background-color: white;
+    color: #AC0000;
+    border-radius: 6px;
+    transition: 0.5s 0s ease-in-out;
+    padding: 2px;
+}
